@@ -51,7 +51,7 @@ The variable `countries` will be a tibble containing the following columns: "cou
 >>> ph_country_info()
 >>> ``` 
 
-This funciton retrieves information of specific country, such as common name, official name, and region.
+This function retrieves information of specific country, such as common name, official name, and region.
 
 ```ph_country_info(country_code)```
 

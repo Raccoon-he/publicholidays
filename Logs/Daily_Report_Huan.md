@@ -44,3 +44,6 @@
 
 ### Date: 2025/03/15
 - uploaded `vignettes`
+
+### Date: 2025/03/16
+- finalized README.md documentation to include all functions with examples
