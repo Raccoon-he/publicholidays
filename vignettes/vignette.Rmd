@@ -202,7 +202,7 @@ ggplot(holidays_count, aes(x = reorder(name, num_holidays), y = num_holidays)) +
   theme(axis.text.x = element_text(hjust = 1))
 ```
 
-**Example output of the plots**
+**Example output of the plot**
 
 ::: {style="display: flex; justify-content: center;"}
 ![example](../img/example.png){width="50%"}
