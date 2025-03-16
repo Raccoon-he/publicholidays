@@ -5,7 +5,7 @@ The goal of `publicholidays` R package is to wrap Nager.Date API and provide val
 
 ## Package Status & Installation
 
-![R Package: GitHub Action CI]()
+![R Package: GitHub Action CI](https://github.com/Raccoon-he/publicholidays/actions/workflows/publicholidays.yml/badge.svg)
 
 ##### Coverage: 100% - 5 functions total included in the `publicholidays` package ##### 
 
