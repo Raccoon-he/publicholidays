@@ -34,7 +34,7 @@ ph_is_today_holiday <- function(country_code) {
   # build API url
   base_url <- paste0("https://date.nager.at/api/v3/PublicHolidays/", format(Sys.Date(), "%Y"), "/", country_code)
   req <- httr2::request(base_url) |>
-    httr2::req_user_agent("nagerdate (https://github.com/krose/nagerdate)")
+    httr2::req_user_agent("publicholidays (https://github.com/Raccoon-he/publicholidays)")
 
   # send req
   resp <- req |>
