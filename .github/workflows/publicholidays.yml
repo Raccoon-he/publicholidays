@@ -22,7 +22,13 @@ jobs:
         use-public-rspm: true
 
     - name: Install dependencies
-      uses: r-lib/actions/setup-r-dependencies@v2
+      run: |
+        install.packages("devtools")
+        install.packages("testthat")
+        install.packages("usethis")
+        install.packages("roxygen2")
+        install.packages("covr")
+      shell: Rscript {0}
 
     - name: Run tests
       run: Rscript -e 'devtools::test()'
