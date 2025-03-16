@@ -55,22 +55,11 @@ For quick analysis, simply call `ph_available_countries()`.
 ph_available_countries()
 ```
 
-Or for more in-depth analysis, the user can assign to a variable to be called.
-
 **Example Usage**
 
 ```{r}
-# Assign to a variable for further analysis
 countries <- ph_available_countries()
-
-# To display how many countries are available
-dim(result)
-
-# To check specific country is available or not
-any(result$name == "Belgium")
-
-# To display country code for specific country
-result[result$name == "Belgium", "countryCode"]
+print(countries)
 ```
 
 
