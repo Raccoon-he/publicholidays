@@ -46,7 +46,7 @@ print(countries)
 
 The variable `countries` will be a tibble containing the following columns: "countryCode" (the ISO 3166-1 alpha-2 country code), "name" (the name of the country).
 
-
+<br><br><br> 
 >>> ```  
 >>> ph_country_info()
 >>> ``` 
@@ -65,7 +65,7 @@ print(country_info)
 
 The variable `country_info` will be a tibble containing the following columns: "commonName" (the common name of the country), "officialName" (the official name of the country), "countryCode" (the ISO 3166-1 alpha-2 country code), "region" (the region where the country is located), "borders" (a list of country codes for countries that share a border with the specified country).
 
-
+<br><br><br> 
 >>> ```  
 >>> ph_is_today_holiday()
 >>> ``` 
@@ -88,7 +88,7 @@ if (is_holiday) {
 
 The variable `country_info` will be a logical value. "TRUE" means today is a public holiday in the specified country.
 
-
+<br><br><br> 
 >>> ```  
 >>> ph_long_weekends()
 >>> ``` 
@@ -108,7 +108,7 @@ print(long_weekends)
 
 The variable `long_weekends` will be a tibble containing the following columns: "startDate" (the start date of the long weekend), "endDate" (the end date of the long weekend), "dayCount" (the number of days in the long weekend), "needBridgeDay" (a logical value indicating whether a bridge day is needed to create the long weekend), "bridgeDays" (A list of bridge days (if any) required to create the long weekend).
 
-
+<br><br><br> 
 >>> ```  
 >>> ph_public_holidays()
 >>> ``` 
@@ -128,6 +128,7 @@ print(holidays)
 
 The variable `holidays` will be a tibble containing the following columns: "date" (the date of the public holiday), "localName" (the local name of the public holiday), "name" (the English name of the public holiday), "countryCode" (the ISO 3166-1 alpha-2 country code), "fixed" (a logical value indicating whether the public holiday has a fixed date), "global" (a logical value indicating whether the public holiday is observed globally in the country), "countries" (a list of counties or regions where the public holiday is observed), "launchYear" (the year the public holiday was first observed), "types" (a list of types or categories of the public holiday).
 
+<br><br><br> 
 **Example of creating a bar plot showing the number of public holidays for each country**
 
 ```
@@ -171,5 +172,5 @@ ggplot(holidays_count, aes(x = reorder(name, num_holidays), y = num_holidays)) +
 
 **Example output of the plot**
 
-![example](../img/example.png)
+![example](/img/example.png)
 
