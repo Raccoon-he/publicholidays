@@ -24,7 +24,7 @@
 ph_available_countries <- function() {
   base_url <- "https://date.nager.at/api/v3/AvailableCountries"
   req <- httr2::request(base_url) |>
-    httr2::req_user_agent("nagerdate (https://github.com/krose/nagerdate)")
+    httr2::req_user_agent("publicholidays (https://github.com/Raccoon-he/publicholidays)")
   resp <- req |>
     httr2::req_perform() |>
     httr2::resp_body_string() |>
