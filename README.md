@@ -86,7 +86,7 @@ if (is_holiday) {
 }
 ```
 
-The variable `country_info` will be a logical value. "TRUE" means today is a public holiday in the specified country.
+The variable `is_holiday` will be a logical value. "TRUE" means today is a public holiday in the specified country.
 
 <br><br><br> 
 >>> ```  
