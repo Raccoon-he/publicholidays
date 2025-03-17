@@ -15,12 +15,12 @@ To explore public holidays information of different countries, simply:
 - OR archive file and import from library
 
 ```
-# Install from GitHub
+# Method 1 - Install from GitHub
 library(remotes)
 install_github("Raccoon-he/publicholidays")
 
-# Install from publicholidays file
-# install.packages('publicholidays')
+# Method 2 - Install from publicholidays file
+install.packages('/path/to/package/publicholidays-0.1.0.tar.gz')
 
 # import library
 library(publicholidays)
